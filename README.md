@@ -23,8 +23,3 @@ Aplikasi web sederhana untuk menampilkan informasi cuaca (suhu, kelembapan, kece
 ## Catatan
 
 Project ini dibuat sebagai latihan/tugas UI cuaca sederhana. Data cuaca yang ditampilkan bersifat statis/dummy kecuali script.js dihubungkan ke API cuaca eksternal (misalnya OpenWeatherMap).
-
-## Author
-
-**Nama:** Youhana Aulia Zahwa
-**NIM:** 252410103002
