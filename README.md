@@ -20,11 +20,11 @@ Aplikasi web sederhana untuk menampilkan informasi cuaca (suhu, kelembapan, kece
 - **JavaScript (Vanilla)** — logika interaktif (`script.js`)
 - **Google Fonts** — Space Grotesk & Inter
 
-## 📝 Catatan
+## Catatan
 
 Project ini dibuat sebagai latihan/tugas UI cuaca sederhana. Data cuaca yang ditampilkan bersifat statis/dummy kecuali script.js dihubungkan ke API cuaca eksternal (misalnya OpenWeatherMap).
 
-## 👤 Author
+## Author
 
 **Nama:** Youhana Aulia Zahwa
 **NIM:** 252410103002
