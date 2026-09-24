@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Weather</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="app">
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="7"/>
+        <path d="M21 21l-4.3-4.3"/>
+      </svg>
+      <input type="text" id="searchInput" placeholder="Ketik nama kota, lalu tekan Enter...">
+    </div>
+
+    <p id="notFound" style="display: none; color: var(--ink-dim); font-size: 0.85rem; margin: -14px 0 20px;">
+      Kota tidak ditemukan, coba: Jakarta, Bandung, Surabaya, Jember, Banyuwangi, Lumajang, Semarang, Bali
+    </p>
+
+    <div class="cities">
+      <button class="city-btn active" data-city="jkt">Jakarta</button>
+      <button class="city-btn" data-city="bdg">Bandung</button>
+      <button class="city-btn" data-city="sby">Surabaya</button>
+      <button class="city-btn" data-city="jbr">Jember</button>
+    </div>
+
+    <div class="main">
+      <p class="place" id="place">Jakarta, Indonesia</p>
+      <p class="temp" id="temp">31°</p>
+      <p class="desc" id="desc">Cerah berawan</p>
+    </div>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="val" id="humidity">68%</div>
+        <div class="label">Kelembapan</div>
+      </div>
+
+      <div class="stat">
+        <div class="val" id="wind">12 km/j</div>
+        <div class="label">Angin</div>
+      </div>
+
+      <div class="stat">
+        <div class="val" id="uv">6</div>
+        <div class="label">Indeks UV</div>
+      </div>
+    </div>
+
+    <div class="forecast">
+      <h2>5 hari ke depan</h2>
+      <div class="day-list" id="dayList"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
